@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/scprit.js"></script>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="in-container">
+
+        <div class="off-field">
+          <div class="field"><span>Day</span><input id="day" type="text" placeholder="DD" required></div>
+          <div class="field"><span>Month</span><input id="month" type="text" placeholder="MM" required></div>
+          <div class="field"><span>Year</span><input id="year" type="text" placeholder="YYYY" required></div>
+        </div>
+
+        <div class="line">
+          <hr><button onclick="dateCalc()"><img src="/assets/images/icon-arrow.svg"></button>
+        </div>
+
+        <div class="results">
+          <div class="res-tex"><span id="days">--</span> days </div>
+          <div class="res-tex"><span id="months">--</span> months </div>
+          <div class="res-tex"><span id="years">--</span>years</div>
+        </div>
+
+      </div>
+      
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Alexandre Fernandes</a>.
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
